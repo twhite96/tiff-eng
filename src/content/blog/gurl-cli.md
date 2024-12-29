@@ -2,7 +2,6 @@
 pubDatetime: 2024-03-24
 title: "gURL: A cURL Wrapper Written in Go"
 description: Moving on from frontend to something new.
-featured: true
 ---
 
 Briefly: I am writing a CLI tool that fetches info from GitHub's REST API as a wrapper around cURL.
@@ -26,11 +25,11 @@ var defaultBaseURL = "https://github.com/"
 
 // Client is a GitHub scraping client.
 type Client struct {
-	*http.Client
+ *http.Client
 
-	// base URL for github.com pages.  Exposed primarily for testing.  Also
-	// used for saving and restoring cookies on the Client.
-	baseURL *url.URL
+ // base URL for github.com pages.  Exposed primarily for testing.  Also
+ // used for saving and restoring cookies on the Client.
+ baseURL *url.URL
 }
 ```
 
