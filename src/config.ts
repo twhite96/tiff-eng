@@ -148,7 +148,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mastodon",
-    href: "https://hachyderm,io/@tiff",
+    href: "https://hachyderm.io/@tiff",
     linkTitle: `${SITE.title} on Mastodon`,
     active: true,
   },
