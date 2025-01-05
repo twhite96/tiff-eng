@@ -2,6 +2,8 @@
 pubDatetime: 2024-03-24
 title: "gURL: A cURL Wrapper Written in Go"
 description: Moving on from frontend to something new.
+tags:
+  - go
 ---
 
 Briefly: I am writing a CLI tool that fetches info from GitHub's REST API as a wrapper around cURL.

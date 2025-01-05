@@ -3,6 +3,8 @@ pubDatetime: 2024-12-28
 title: "Go Blueprint: An Easy Way to Scoffold Your Go Project"
 description: Melkeydev created a useful tool to get your project up and running.
 featured: true
+tags:
+  - go
 ---
 
 Starting a new Go project is cumbersome; you have to create multiple directories with subdirectories, different modules depending on the thing you're building, and more.

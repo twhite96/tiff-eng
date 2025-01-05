@@ -3,6 +3,9 @@ pubDatetime: 2024-04-23
 title: This Week's Update
 description: Brief note.
 featured: true
+tags:
+  - updates
+  - meta
 ---
 
 Things I have been up to while off LinkedIn:
