@@ -2,6 +2,8 @@
 pubDatetime: 2024-04-01
 title: Go Project Structure for gURL
 description: Helpful Go tip.
+tags:
+  - go
 ---
 
 Over the past week I've been working on changing the structure of gURL.

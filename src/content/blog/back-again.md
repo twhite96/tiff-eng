@@ -3,6 +3,8 @@ pubDatetime: 2024-10-18
 title: Back Again
 description: "Life is uncertain, but one thing remains constant- my need to keep my brain engaged."
 featured: false
+tags:
+  - personal
 ---
 
 > This is going to be a brief post; I have not gathered my thoughts on my current career situation, however that will come.

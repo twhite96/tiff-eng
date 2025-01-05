@@ -2,6 +2,8 @@
 pubDatetime: 2024-03-17
 title: "Hello, y'all"
 description: Introductions.
+tags:
+  - meta
 ---
 
 This is a learning and accountability blog.
