@@ -102,19 +102,21 @@
     word-wrap: break-word;
   }
 
-  .prose :is(:where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
-     border-radius: 0.25rem !important;
-     color: #D26878 !important;
-     background-color: #e8e8e8;
-     padding: 0.25rem !important;
+  .prose
+    :is(
+      :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))
+    ) {
+    border-radius: 0.25rem !important;
+    color: #d26878 !important;
+    background-color: #e8e8e8;
+    padding: 0.25rem !important;
   }
 
   .prose a {
-    color:#d26878 !important;
+    color: #d26878 !important;
     text-decoration: underline !important;
     text-decoration-style: solid !important;
     word-break: break-all;
-
   }
 
   .prose a:hover {
