@@ -28,7 +28,7 @@ export default defineConfig({
     ],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
-      themes: { light: "github-light", dark: "material-theme-palenight" },
+      themes: { light: "catppuccin-latte", dark: "catppuccin-frappe" },
       wrap: true,
     },
   },
@@ -38,7 +38,4 @@ export default defineConfig({
     },
   },
   scopedStyleStrategy: "where",
-  experimental: {
-    contentLayer: true,
-  },
 });
