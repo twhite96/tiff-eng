@@ -15,7 +15,7 @@ const blog = defineCollection({
       draft: z.boolean().optional(),
       tags: z.array(z.string()).default(["others"]),
       ogImage: image()
-        .refine(img => img.width >= 1200 && img.height >= 630, {
+        .refine((img) => img.width >= 1200 && img.height >= 630, {
           message: "OpenGraph image must be at least 1200 X 630 pixels!",
         })
         .or(z.string())
@@ -31,6 +31,82 @@ const blog = defineCollection({
         })
         .optional(),
     }),
+});
+
+const snippetsCollectiom = defineCollection({
+  loader: glob({
+    pattern: "**/[^_]*.{md,mdx}",
+    base: "./",
+  }),
+});
+
+const changeCollection = defineCollection({
+  loader: glob({
+    pattern: "**/[^_]*.{md,mdx}",
+    base: "./src/content/changelog",
+  }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z
+      .string()
+      .transform((str) => new Date(str))
+      .optional()
+      .nullable(),
+  }),
+});
+
+const nowCollection = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/now" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z
+      .string()
+      .transform((str) => new Date(str))
+      .optional()
+      .nullable(),
+  }),
+});
+
+const linksCollection = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/links" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z
+      .string()
+      .transform((str) => new Date(str))
+      .optional()
+      .nullable(),
+  }),
+});
+
+const usesCollection = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/uses" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z
+      .string()
+      .transform((str) => new Date(str))
+      .optional()
+      .nullable(),
+  }),
+});
+
+const readsCollection = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/reads" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z
+      .string()
+      .transform((str) => new Date(str))
+      .optional()
+      .nullable(),
+    keywords: z.string().array(),
+  }),
 });
 
 export const collections = { blog };
