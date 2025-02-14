@@ -19,6 +19,12 @@ export type Site = {
   };
 };
 
+// export type SnippetPosts = {
+//   title: string;
+//   desc?: string;
+//   author?: string;
+// }
+
 export type SocialObjects = {
   name: keyof typeof socialIcons;
   href: string;
