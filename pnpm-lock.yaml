@@ -14,6 +14,15 @@ importers:
       '@astrojs/sitemap':
         specifier: ^3.2.1
         version: 3.2.1
+      '@fontsource-variable/red-hat-mono':
+        specifier: ^5.2.5
+        version: 5.2.5
+      '@fontsource/fira-mono':
+        specifier: ^5.2.5
+        version: 5.2.5
+      '@fontsource/ibm-plex-mono':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@resvg/resvg-js':
         specifier: ^2.6.2
         version: 2.6.2
@@ -359,6 +368,15 @@ packages:
   '@eslint/plugin-kit@0.2.7':
     resolution: {integrity: sha512-JubJ5B2pJ4k4yGxaNLdbjrnk9d/iDz6/q8wOilpIowd6PJPgaxCuHBnBszq7Ce2TyMrywm5r4PnKm6V3iiZF+g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource-variable/red-hat-mono@5.2.5':
+    resolution: {integrity: sha512-BP2zCfaBvjvx/+ijLYH6joqQ7aZyM5XecNuXSPUQ3G05fjU3q2MfEPT8CjIQ6LgsSpCxWOmrdlxOofDb/8pp2g==}
+
+  '@fontsource/fira-mono@5.2.5':
+    resolution: {integrity: sha512-rujrs+J+w2Nmqd6zsNQTzT7eYLKrSQWdF7SuAdjjXVs+Si06Ag6etOYFmF3Mzb0NufmEIPCDUS2ppt6hxX+SLg==}
+
+  '@fontsource/ibm-plex-mono@5.2.5':
+    resolution: {integrity: sha512-G09N3GfuT9qj3Ax2FDZvKqZttzM3v+cco2l8uXamhKyXLdmlaUDH5o88/C3vtTHj2oT7yRKsvxz9F+BXbWKMYA==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2974,6 +2992,12 @@ snapshots:
     dependencies:
       '@eslint/core': 0.12.0
       levn: 0.4.1
+
+  '@fontsource-variable/red-hat-mono@5.2.5': {}
+
+  '@fontsource/fira-mono@5.2.5': {}
+
+  '@fontsource/ibm-plex-mono@5.2.5': {}
 
   '@humanfs/core@0.19.1': {}
 
