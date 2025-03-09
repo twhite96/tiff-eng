@@ -7,7 +7,7 @@ tags:
   - linux series
 ---
 
-![Me at my desk with Fedora and macOS](@assets/images/linux-series/workspace.jpg)<small><em>My messy desk working on setting up Fedora with Hyprland and Waybar</em></small>
+![Me at my desk with Fedora and macOS](../../assets/images/linux-series/workspace.jpg)<small><em>My messy desk working on setting up Fedora with Hyprland and Waybar</em></small>
 
 I've been living that motel life now for a couple months. While it is just a room, it is bigger, cleaner, and better for me all around.
 
@@ -42,13 +42,13 @@ Learning _how_ Linux works takes a good amount of time and research. I only sugg
 ### On the Dell
 
 Fedora 41 Workstation with GNOME Desktop
-![](@assets/images/linux-series/fedora-gnome-laptop.png)
+![](../../assets/images/linux-series/fedora-gnome-laptop.png)
 
 ### On Beelink NUC
 
 Fedora 41 with KDE Plasma DE and Hyprland Tiling Window Manager.
-![](@assets/images/linux-series/hyprland-ohmyposh-grim.png)
-![](@assets/images/linux-series/fedora-kde-nuc.png)
+![](../../assets/images/linux-series/hyprland-ohmyposh-grim.png)
+![](../../assets/images/linux-series/fedora-kde-nuc.png)
 
 ## Till next time
 
