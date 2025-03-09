@@ -17,4 +17,4 @@ I will only post here occasionally. What that will be will be dependent on the t
 
 And that's also another reason I started this blog: I need a way to hold myself accountable. I aspire to build tools using the languages I learn. I've always half-assed the things I built, the scope too large, my experience not matching the attempts, and once I get part of the way there, there is some obstacle I feel doesn't warrant more time. I have hundreds of repos that are private that I've given up on.
 
-The deal for me is this: start small. You don't have to [build a compiler in WebAssembly](https://healeycodes.com/a-custom-webassembly-compiler) to make something useful. _Just build, baby_.
+The deal for me is this: start small. You don't have to [build a compiler in WebAssembly](https://healeycodes.com/a-custom-webassembly-compiler) to make something useful. _Just build, baby_.y feedback via my [email](mailto:contact@satnaing.dev).
