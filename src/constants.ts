@@ -1,12 +1,12 @@
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBluesky from "@/assets/icons/IconBluesky.svg";
-import IconBrandX from "@/assets/icons/IconBrandX.svg";
-import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
-import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
-import IconFacebook from "@/assets/icons/IconFacebook.svg";
-import IconTelegram from "@/assets/icons/IconTelegram.svg";
-import IconPinterest from "@/assets/icons/IconPinterest.svg";
+import IconMastodon from "@/assets/icons/IconMastodon.svg";
+import IconReddit from "@/assets/icons/IconReddit.svg";
+import IconHackerNews from "@/assets/icons/IconHackerNews.svg";
+import IconPayPal from "@/assets/icons/IconPayPal.svg";
+import IconCashapp from "@/assets/icons/IconCashapp.svg";
+
 import { SITE } from "@/config";
 
 export const LOCALE = {
@@ -26,6 +26,36 @@ export const SOCIALS = [
     href: "mailto:yourmail@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
+  },
+  {
+    name: "Reddit",
+    href: "https://reddit.com",
+    linkTitle: `${SITE.title} on Reddit`,
+    icon: IconReddit,
+  },
+  {
+    name: "Hacker News",
+    href: "https://news.ycombinator.com/user?id=trw55",
+    linkTitle: `${SITE.title} on Hacker News`,
+    icon: IconHackerNews,
+  },
+  {
+    name: "Mastodon",
+    href: "https://hachyderm.io/@tiff",
+    linkTitle: `${SITE.title} Mastodon`,
+    icon: IconMastodon,
+  },
+  {
+    name: "CashApp",
+    href: "https://cash.app/$tiffanywhitedev",
+    linkTitle: `${SITE.title} on CashApp`,
+    icon: IconCashapp,
+  },
+  {
+    name: "PayPal",
+    href: "https://www.paypal.me/tiffsysadmin",
+    linkTitle: `${SITE.title} on PayPal`,
+    icon: IconPayPal,
   },
 ] as const;
 

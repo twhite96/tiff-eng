@@ -2,6 +2,7 @@
 title: I hated social media before it was cool
 description: I used to read blogs and BB Forums, but you probably never heard of them.
 pubDatetime: 2025-03-08
+featured: true
 tags:
   - thoughts
 ---
