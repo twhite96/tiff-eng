@@ -2,10 +2,11 @@ import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBluesky from "@/assets/icons/IconBluesky.svg";
 import IconMastodon from "@/assets/icons/IconMastodon.svg";
-import IconReddit from "@/assets/icons/IconReddit.svg";
 import IconHackerNews from "@/assets/icons/IconHackerNews.svg";
-import IconPayPal from "@/assets/icons/IconPayPal.svg";
-import IconCashapp from "@/assets/icons/IconCashapp.svg";
+import IconCodeberg from "@/assets/icons/IconCodeberg.svg";
+import IconForgejo from "@/assets/icons/IconForgejo.svg";
+import IconLobsters from "@/assets/icons/IconsLobsters.svg";
+import Path from "@/assets/icons/Path.svg";
 
 import { SITE } from "@/config";
 
@@ -22,16 +23,22 @@ export const SOCIALS = [
     icon: IconGitHub,
   },
   {
+    name: "Forgejo",
+    href: "https://git.tifflabs.cfd",
+    linkTitle: `${SITE.title} Forgejo`,
+    icon: IconForgejo,
+  },
+  {
+    name: "Codeberg",
+    href: "https://codeberg.org/tiff",
+    linkTitle: `${SITE.title} on Codeberg`,
+    icon: IconCodeberg,
+  },
+  {
     name: "Mail",
     href: "mailto:yourmail@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
-  },
-  {
-    name: "Reddit",
-    href: "https://reddit.com",
-    linkTitle: `${SITE.title} on Reddit`,
-    icon: IconReddit,
   },
   {
     name: "Hacker News",
@@ -40,22 +47,16 @@ export const SOCIALS = [
     icon: IconHackerNews,
   },
   {
+    name: "Lobsters",
+    href: "https://lobste.rs/~tiff",
+    linkTitle: `${SITE.title} on Lobsters`,
+    icon: IconLobsters,
+  },
+  {
     name: "Mastodon",
     href: "https://hachyderm.io/@tiff",
     linkTitle: `${SITE.title} Mastodon`,
     icon: IconMastodon,
-  },
-  {
-    name: "CashApp",
-    href: "https://cash.app/$tiffanywhitedev",
-    linkTitle: `${SITE.title} on CashApp`,
-    icon: IconCashapp,
-  },
-  {
-    name: "PayPal",
-    href: "https://www.paypal.me/tiffsysadmin",
-    linkTitle: `${SITE.title} on PayPal`,
-    icon: IconPayPal,
   },
 ] as const;
 
