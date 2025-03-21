@@ -2,7 +2,6 @@
 pubDatetime: 2025-02-13
 title: "Working with Linux, Part One"
 description: I've set up two instances of Fedora on different hardware. Now, I want to talk about the experience.
-featured: true
 tags:
   - linux series
 ---
