@@ -6,6 +6,7 @@ import "@/styles/global.css";
 import "@fontsource/fira-mono";
 import "@fontsource/ibm-plex-mono/300.css";
 import "@fontsource/ibm-plex-mono/400.css";
+import "@/styles/littlefoot.css";
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
 export interface Props {
@@ -141,6 +142,15 @@ const structuredData = {
   </head>
   <body>
     <slot />
+     <script is:inline
+        src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+        type="application/javascript">
+     </script>
+     <script is:inline>
+         document.addEventListener('astro:page-load', () => {
+         littlefoot.littlefoot();
+       });
+     </script>  
   </body>
 </html>
 
