@@ -6,7 +6,7 @@ import IconHackerNews from "@/assets/icons/IconHackerNews.svg";
 import IconMatrix from "@/assets/icons/IconMatrix.svg";
 import IconGit from "@/assets/icons/IconGit.svg";
 import IconLobsters from "@/assets/icons/IconsLobsters.svg";
-import Path from "@/assets/icons/Path.svg";
+// import Path from "@/assets/icons/Path.svg";
 
 import { SITE } from "@/config";
 
@@ -37,7 +37,7 @@ export const SOCIALS = [
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:hello@tiffwhite.me",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
