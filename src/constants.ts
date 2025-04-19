@@ -37,7 +37,7 @@ export const SOCIALS = [
   },
   {
     name: "Mail",
-    href: "mailto:hello@tiffwhite.me",
+    href: "mailto:hithere@tiff.engineer",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
