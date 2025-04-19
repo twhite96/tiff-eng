@@ -3,8 +3,8 @@ import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBluesky from "@/assets/icons/IconBluesky.svg";
 import IconMastodon from "@/assets/icons/IconMastodon.svg";
 import IconHackerNews from "@/assets/icons/IconHackerNews.svg";
-import IconCodeberg from "@/assets/icons/IconCodeberg.svg";
-import IconForgejo from "@/assets/icons/IconForgejo.svg";
+import IconMatrix from "@/assets/icons/IconMatrix.svg";
+import IconGit from "@/assets/icons/IconGit.svg";
 import IconLobsters from "@/assets/icons/IconsLobsters.svg";
 import Path from "@/assets/icons/Path.svg";
 
@@ -17,22 +17,23 @@ export const LOCALE = {
 
 export const SOCIALS = [
   {
+    name: "Git",
+    href: "https://git.tiff.engineer",
+    linkTitle: `${SITE.title} Git`,
+    icon: IconGit,
+  },
+  {
+    name: "Matrix",
+    href: "@100pdatcat:matrix.org",
+    linkTitle: `${SITE.title} Matrix`,
+    icon: IconMatrix,
+  },
+
+  {
     name: "Github",
     href: "https://github.com/twhite96",
     linkTitle: ` ${SITE.title} on Github`,
     icon: IconGitHub,
-  },
-  {
-    name: "Forgejo",
-    href: "https://git.tifflabs.cfd",
-    linkTitle: `${SITE.title} Forgejo`,
-    icon: IconForgejo,
-  },
-  {
-    name: "Codeberg",
-    href: "https://codeberg.org/tiff",
-    linkTitle: `${SITE.title} on Codeberg`,
-    icon: IconCodeberg,
   },
   {
     name: "Mail",
