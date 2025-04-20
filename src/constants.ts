@@ -24,7 +24,7 @@ export const SOCIALS = [
   },
   {
     name: "Matrix",
-    href: "@100pdatcat:matrix.org",
+    href: "https://matrix.to/#/@100pdatcat:matrix.org",
     linkTitle: `${SITE.title} Matrix`,
     icon: IconMatrix,
   },
