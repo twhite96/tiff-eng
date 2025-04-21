@@ -1,5 +1,4 @@
 import IconMail from "@/assets/icons/IconMail.svg";
-import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBluesky from "@/assets/icons/IconBluesky.svg";
 import IconMastodon from "@/assets/icons/IconMastodon.svg";
 import IconHackerNews from "@/assets/icons/IconHackerNews.svg";
@@ -27,13 +26,6 @@ export const SOCIALS = [
     href: "https://matrix.to/#/@100pdatcat:matrix.org",
     linkTitle: `${SITE.title} Matrix`,
     icon: IconMatrix,
-  },
-
-  {
-    name: "Github",
-    href: "https://github.com/twhite96",
-    linkTitle: ` ${SITE.title} on Github`,
-    icon: IconGitHub,
   },
   {
     name: "Mail",
