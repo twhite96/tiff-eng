@@ -89,6 +89,16 @@ const isActive = (path: string) => {
               Notes
             </a>
           </li>
+          <li class="col-span-2">
+            <a
+              href="https://photos.tiff.engineer"
+              class:list={{
+                "active-nav": isActive("https://photos.tiff.engineer"),
+              }}
+            >
+              Photos
+            </a>
+          </li>
 
           <li class="col-span-2">
             <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
