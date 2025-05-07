@@ -17,7 +17,7 @@ export const LOCALE = {
 export const SOCIALS = [
   {
     name: "Git",
-    href: "https://git.tiff.engineer",
+    href: "https://git.tiff.run",
     linkTitle: `${SITE.title} Git`,
     icon: IconGit,
   },
@@ -29,7 +29,7 @@ export const SOCIALS = [
   },
   {
     name: "Mail",
-    href: "mailto:hithere@tiff.engineer",
+    href: "mailto:hithere@tiff.run",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
